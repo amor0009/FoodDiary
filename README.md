@@ -21,5 +21,5 @@
 ###  Язык программирования разработки: Kotlin.
 ### Среда разработки: Android Studio.
 
-##Requirments
+## Requirments
 https://github.com/amor0009/FoodDiary/blob/78921eeb6be68483eb70390da63dd9db7dc88e87/docs/SRS.md
