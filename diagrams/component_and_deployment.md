@@ -1,3 +1,3 @@
 # Диаграмма компонентов и развёртывания
 
-![](images/structure.jpg)
+![](images/structure.png)
