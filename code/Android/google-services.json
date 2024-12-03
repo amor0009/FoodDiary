@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716801847081",
+    "project_id": "fooddiary-1b287",
+    "storage_bucket": "fooddiary-1b287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716801847081:android:731bb26ff6fd5cc5101138",
+        "android_client_info": {
+          "package_name": "com.pms.fooddiary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrf4oueLAmrJedeZ_2hEaR2gjh6T4hwy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
