@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#201E28">
+
+    <!-- Текущий вес -->
+    <TextView
+        android:id="@+id/current_weight_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текущий вес: 0 кг"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Изменение веса -->
+    <TextView
+        android:id="@+id/weight_change_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменение веса: 0 кг"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- График изменения веса -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/weight_chart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="16dp"
+        android:background="#e2a600"
+        android:textColor="#FFFFFF" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#e2a600"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#5e4602"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button_weight"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="7dp"
+            android:backgroundTint="#e2a600"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#5e4602"
+            android:text="Weight" />
+
+        <Button
+            android:id="@+id/button_diary"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="7dp"
+            android:backgroundTint="#e2a600"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#5e4602"
+            android:text="Diary" />
+    </LinearLayout>
+</LinearLayout>
