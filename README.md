@@ -18,8 +18,8 @@
   Reports - страница с отчётами по приёмам пищи за выбранный период, анализирование.  
 
 ### Development:
-  Язык программирования разработки: Kotlin.  
-  Среда разработки: Android Studio.  
+  Язык программирования разработки: Kotlin, Python.  
+  Среда разработки: Android Studio, PyCharm.  
 
 ### Requirments
 https://github.com/amor0009/FoodDiary/blob/main/docs/SRS.md
