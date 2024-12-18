@@ -1,3 +1,5 @@
 [submodule "code/Backend"]
 	path = code/Backend
 	url = https://github.com/amor0009/FoodDiaryBackend.git
+	branch = main
+	update = rebase
